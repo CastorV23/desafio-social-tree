@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+}
+
+.conteiner{
+    max-width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #a09ea1;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.perfil img{
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 5px;
+
+}
+.perfil img:hover{
+    width: 310px;
+    height: 310px;
+    margin: 0 auto;
+}
+
+.perfil{
+    width: 310px;
+    height: 310px;
+    border: 3px solid rgb(78, 62, 80);
+    border-radius: 50%;
+    margin: 0 auto;
+    text-decoration: none;
+}
+.perfil:hover{
+    border: 3px solid #fff;
+    margin: 0 auto;
+
+    
+
+}
+
+a{
+    
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(78, 62, 80) ;
+    
+    
+
+}
+
+.paragrafo{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin: 10px auto;
+    font-size: 24px;
+    
+}
+.paragrafo:hover{
+    font-size: 25px;
+    color: #fff;
+}
+
+.conteiner-links{
+    border: px solid red;
+    margin-top: 70px;
+
+}
+
+.conteiner-links{
+    display: grid;
+    justify-content: center;
+}
+
+button{
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(78, 62, 80);
+    color: rgb(197, 193, 193);
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover{
+    background-color: #a09ea1;
+    border: 1px solid rgb(78, 62, 80);
+    color: rgb(78, 62, 80);
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer ul li{
+    padding: 20px;
+    font-size: 35px;
+}
+
